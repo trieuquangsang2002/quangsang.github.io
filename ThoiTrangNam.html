@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <title>EAUT Shop</title>
+
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700ii%7CRoboto:300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/ion.rangeSlider.css">
+    <link rel="stylesheet" href="css/ion.rangeSlider.skinFlat.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+    <!-- Header - start -->
+    <header class="header">
+        <!-- Logo, Shop-menu - start -->
+        <div class="header-middle">
+            <div class="container header-middle-cont">
+                <div class="toplogo">
+                    <a href="index.html">
+                        <img src="./img/logo/logo trường.png">
+                    </a>
+                </div>
+                <div class="shop-menu">
+                    <ul>
+                        <li class="topsearch">
+                            <a id="topsearch-btn" class="topsearch-btn" href="#"><i class="fa fa-search"></i></a>
+                            <form class="topsearch-form" action="#">
+                                <input type="text" placeholder="Bạn muốn tìm gì...">
+                                <button type="submit"><i class="fa fa-search"></i></button>
+                            </form>
+                        </li>
+                        <li class="topauth">
+                            <a href="./DangNhap.html">
+                                <i class="fa fa-lock"></i>
+                                <span class="shop-menu-ttl">Đăng kí</span>
+                            </a>
+                            <a href="./DangNhap.html">
+                                <span class="shop-menu-ttl">Đăng nhập</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <div class="h-cart">
+                                <a href="./GioHang.html">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <span class="shop-menu-ttl">Giỏ hàng</span> (
+                                    <b>0</b>)
+                                </a>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Logo, Shop-menu - end -->
+
+        <!-- Topmenu - start -->
+        <div class="header-bottom">
+            <div class="container">
+                <nav class="topmenu">
+
+                    <!-- Catalog menu - start -->
+                    <div class="topcatalog">
+                        <a class="topcatalog-btn" href="#">Danh mục SP</a>
+                        <ul class="topcatalog-list">
+                            <!-- Thời trang nam -->
+                            <li>
+                                <a href="./ThoiTrangNam.html">
+							Thời trang nam
+						</a>
+                                <i class="fa fa-angle-right"></i>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+									Áo
+								</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+									Quần
+								</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+									Phụ kiện thời trang
+								</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- Thời trang nữ -->
+                            <li>
+                                <a href="./ThoiTrangNu.html">
+							Thời trang nữ
+						</a>
+                                <i class="fa fa-angle-right"></i>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+								   Đầm
+								</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+									Chân váy
+								</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+									Áo
+								</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Catalog menu - end -->
+
+                    <!-- Main menu - start -->
+                    <button type="button" class="mainmenu-btn">Service</button>
+
+                    <ul class="mainmenu">
+                        <li>
+                            <a href="index.html">
+						Trang Chủ
+					</a>
+                        </li>
+                        <li>
+                            <a href="./ThoiTrangNam.html" class="active">
+						Thời Trang Nam
+					</a>
+                        </li>
+                        <li>
+                            <a href="./ThoiTrangNu.html">
+							Thời Trang Nữ
+					</a>
+
+                        </li>
+                        <li>
+                            <a href="#row">
+						Liên Hệ
+					</a>
+                        </li>
+                        <li>
+                            <a href="./GioiThieu.html">
+						Giới thiệu
+					</a>
+                        </li>
+                    </ul>
+                    <!-- Main menu - end -->
+
+                    <!-- Search - start -->
+
+                    <!-- Search - end -->
+
+                </nav>
+            </div>
+        </div>
+        <!-- Topmenu - end -->
+
+    </header>
+    <!-- Header - end -->
+
+
+    <!-- Main Content - start -->
+    <main>
+        <section class="container">
+
+
+            <ul class="b-crumbs">
+                <li>
+                    <a href="index.html">
+					Danh mục SP
+				</a>
+                </li>
+                <li>
+                    <a href="#">
+					Thời trang nam
+				</a>
+                </li>
+            </ul>
+            <!-- Catalog Sidebar - start -->
+            <div class="section-sb">
+
+                <!-- Catalog Categories - start -->
+                <div class="section-sb-current">
+                    <h3><a href="#">Thời Trang Nam<span id="section-sb-toggle" class="section-sb-toggle"><span class="section-sb-ico"></span></span></a></h3>
+                    <ul class="section-sb-list" id="section-sb-list">
+                        <li class="categ-1">
+                            <a href="#">
+                                <span class="categ-1-label">Áo</span>
+                            </a>
+                        </li>
+                        <li class="#">
+                            <a href="#">
+                                <span class="categ-1-label">Quần</span>
+                            </a>
+                        </li>
+                        <li class="categ-1">
+                            <a href="#">
+                                <span class="categ-1-label">Phụ Kiện Thời Trang</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Catalog Categories - end -->
+            </div>
+            <!-- Catalog Sidebar - end -->
+            <!-- Catalog Items | Gallery V1 - start -->
+            <div class="section-cont">
+
+                <!-- Catalog Topbar - start -->
+                <div class="section-top">
+
+                    <!-- View Mode -->
+                    <ul class="section-mode">
+                        <li class="section-mode-gallery active">
+                            <a title="View mode: Gallery" href="#"></a>
+                        </li>
+                        <li class="section-mode-list">
+                            <a title="View mode: List" href="#"></a>
+                        </li>
+                        <li class="section-mode-table">
+                            <a title="View mode: Table" href="#"></a>
+                        </li>
+                    </ul>
+
+                    <!-- Sorting -->
+                    <div class="section-sortby">
+                        <p>Mặc định</p>
+                        <ul>
+                            <li>
+                                <a href="#">Sản phẩm nổi bật</a>
+                            </li>
+                            <li>
+                                <a href="#">Giá: Tăng dần</a>
+                            </li>
+                            <li>
+                                <a href="#">Giá: Giảm dần</a>
+                            </li>
+                            <li>
+                                <a href="#">Tên: A->Z <i class="fa fa-angle-right"></i> Z</a>
+                            </li>
+                            <li>
+                                <a href="#">Tên:Z->A<i class="fa fa-angle-right"></i> A</a>
+                            </li>
+                            <li>
+                                <a href="#">Mặc định</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- Catalog Topbar - end -->
+                <div class="prod-items section-items">
+
+                    <div class="prod-i">
+                        <div class="prod-i-top">
+                            <a href="#" class="prod-i-img">
+                                <!-- NO SPACE --><img src="./img/Áo/ao1.webp" alt="Adipisci aperiam commodi">
+                                <!-- NO SPACE -->
+                            </a>
+                            <!--<p class="prod-i-info">
+                            a href="#" class="qview-btn prod-i-qview"><span>Xem nhanh  </span><i class="fa fa-search"></i></a>
+                        </p>-->
+                            <a href="#" class="prod-i-buy">Thêm vào giỏ</a>
+                            <p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
+                        </div>
+                        <h3>
+                            <a href="#">Áo polo nam lịch sự lịch lãm</a>
+                        </h3>
+                        <p class="prod-i-price">
+                            <b style="color: red">250.000 Đ</b>
+                        </p>
+                    </div>
+
+                    <!-- Áo 2 -->
+                    <div class="prod-i">
+                        <div class="prod-i-top">
+                            <a href="#" class="prod-i-img">
+                                <!-- NO SPACE --><img src="./img/Áo/ao2.webp" alt="Adipisci aperiam commodi">
+                                <!-- NO SPACE -->
+                            </a>
+                            <!--<p class="prod-i-info">
+                            a href="#" class="qview-btn prod-i-qview"><span>Xem nhanh  </span><i class="fa fa-search"></i></a>
+                        </p>-->
+                            <a href="#" class="prod-i-buy">Thêm vào giỏ</a>
+                            <p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
+                        </div>
+                        <h3>
+                            <a href="#">Áo polo nam lịch lãm</a>
+                        </h3>
+                        <p class="prod-i-price">
+                            <b style="color: red">250.000 Đ</b>
+                        </p>
+                    </div>
+
+                    <div class="prod-i">
+                        <div class="prod-i-top">
+                            <a href="#" class="prod-i-img">
+                                <!-- NO SPACE --><img src="./img/Áo/áo3.jpg" alt="Adipisci aperiam commodi">
+                                <!-- NO SPACE -->
+                            </a>
+                            <!--<p class="prod-i-info">
+                            a href="#" class="qview-btn prod-i-qview"><span>Xem nhanh  </span><i class="fa fa-search"></i></a>
+                        </p>-->
+                            <a href="#" class="prod-i-buy">Thêm vào giỏ</a>
+                            <p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
+                        </div>
+                        <h3>
+                            <a href="#">Áo polo nam lịch sự lịch lãm</a>
+                        </h3>
+                        <p class="prod-i-price">
+                            <b style="color: red">250.000 Đ</b>
+                        </p>
+                    </div>
+                    <div class="prod-i">
+                        <div class="prod-i-top">
+                            <a href="#" class="prod-i-img">
+                                <!-- NO SPACE --><img src="./img/Áo/khoac1.jpg" alt="Adipisci aperiam commodi">
+                                <!-- NO SPACE -->
+                            </a>
+                            <!--<p class="prod-i-info">
+                            a href="#" class="qview-btn prod-i-qview"><span>Xem nhanh  </span><i class="fa fa-search"></i></a>
+                        </p>-->
+                            <a href="#" class="prod-i-buy">Thêm vào giỏ</a>
+                            <p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
+                        </div>
+                        <h3>
+                            <a href="#">Áo khoác gió nam</a>
+                        </h3>
+                        <p class="prod-i-price">
+                            <b style="color: red">250.000 Đ</b>
+                        </p>
+                    </div>
+                    <div class="prod-i">
+                        <div class="prod-i-top">
+                            <a href="#" class="prod-i-img">
+                                <!-- NO SPACE --><img src="./img/Áo/bomber1.jpg" alt="Adipisci aperiam commodi">
+                                <!-- NO SPACE -->
+                            </a>
+                            <!--<p class="prod-i-info">
+                            a href="#" class="qview-btn prod-i-qview"><span>Xem nhanh  </span><i class="fa fa-search"></i></a>
+                        </p>-->
+                            <a href="#" class="prod-i-buy">Thêm vào giỏ</a>
+                            <p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
+                        </div>
+                        <h3>
+                            <a href="#">Áo khoác bomber hot trend</a>
+                        </h3>
+                        <p class="prod-i-price">
+                            <b style="color: red">250.000 Đ</b>
+                        </p>
+                    </div>
+                    <div class="prod-i">
+                        <div class="prod-i-top">
+                            <a href="#" class="prod-i-img">
+                                <!-- NO SPACE --><img src="./img/Áo/thun1.jpg" alt="Adipisci aperiam commodi">
+                                <!-- NO SPACE -->
+                            </a>
+                            <!--<p class="prod-i-info">
+                            a href="#" class="qview-btn prod-i-qview"><span>Xem nhanh  </span><i class="fa fa-search"></i></a>
+                        </p>-->
+                            <a href="#" class="prod-i-buy">Thêm vào giỏ</a>
+                            <p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
+                        </div>
+                        <h3>
+                            <a href="#">Áo thun nam basic</a>
+                        </h3>
+                        <p class="prod-i-price">
+                            <b style="color: red">250.000 Đ</b>
+                        </p>
+                    </div>
+                    <div class="prod-i">
+                        <div class="prod-i-top">
+                            <a href="#" class="prod-i-img">
+                                <!-- NO SPACE --><img src="./img/Áo/ao4.jpg" alt="Adipisci aperiam commodi">
+                                <!-- NO SPACE -->
+                            </a>
+                            <!--<p class="prod-i-info">
+                            a href="#" class="qview-btn prod-i-qview"><span>Xem nhanh  </span><i class="fa fa-search"></i></a>
+                        </p>-->
+                            <a href="#" class="prod-i-buy">Thêm vào giỏ</a>
+                            <p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
+                        </div>
+                        <h3>
+                            <a href="#">Áo polo nam lịch sự lịch lãm</a>
+                        </h3>
+                        <p class="prod-i-price">
+                            <b style="color: red">250.000 Đ</b>
+                        </p>
+                    </div>
+                    <div class="prod-i">
+                        <div class="prod-i-top">
+                            <a href="#" class="prod-i-img">
+                                <!-- NO SPACE --><img src="./img/Áo/áo5.png" alt="Adipisci aperiam commodi">
+                                <!-- NO SPACE -->
+                            </a>
+                            <!--<p class="prod-i-info">
+                            a href="#" class="qview-btn prod-i-qview"><span>Xem nhanh  </span><i class="fa fa-search"></i></a>
+                        </p>-->
+                            <a href="#" class="prod-i-buy">Thêm vào giỏ</a>
+                            <p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
+                        </div>
+                        <h3>
+                            <a href="#">Áo polo nam lịch sự lịch lãm</a>
+                        </h3>
+                        <p class="prod-i-price">
+                            <b style="color: red">250.000 Đ</b>
+                        </p>
+                    </div>
+                    <div class="prod-i">
+                        <div class="prod-i-top">
+                            <a href="#" class="prod-i-img">
+                                <!-- NO SPACE --><img src="./img/Áo/khoac2.jpg" alt="Adipisci aperiam commodi">
+                                <!-- NO SPACE -->
+                            </a>
+                            <!--<p class="prod-i-info">
+                            a href="#" class="qview-btn prod-i-qview"><span>Xem nhanh  </span><i class="fa fa-search"></i></a>
+                        </p>-->
+                            <a href="#" class="prod-i-buy">Thêm vào giỏ</a>
+                            <p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
+                        </div>
+                        <h3>
+                            <a href="#">Áo khoác thời trang nam hiện đại</a>
+                        </h3>
+                        <p class="prod-i-price">
+                            <b style="color: red">250.000 Đ</b>
+                        </p>
+                    </div>
+                    <!-- Catalog Items | Gallery V1 - end -->
+
+                    <ul class="pagi" style="text-align: center;">
+                        <li class="active"><span>1</span></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li class="pagi-next"><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
+                    </ul>
+    </main>
+    <!-- Main Content - end -->
+
+
+    <!-- Footer - start -->
+    <footer class="footer-wrap">
+        <div class="container f-menu-list">
+            <div id="row">
+                <div class="f-menu">
+                    <h3>
+                        ĐẠI HỌC CÔNG NGHỆ ĐÔNG Á
+                        <br>
+                        <br> EMAIL: nhom1@eaut.edu.vn
+                    </h3>
+                </div>
+                <div class="f-menu">
+                </div>
+                <div class="f-menu">
+                    <h3>
+                        HỆ THỐNG CỬA HÀNG:
+                    </h3>
+                    <ul class="nav nav-pills nav-stacked">
+                        <li><b>SHOP HCM </b>(Làm việc từ 8h00 - 22h00)</li>
+                        <li>- ĐC1: 78-80-82 Hoàng Hoa Thám, P.12, Q.Tân Bình.<br>- ĐC2: 189 Cống Quỳnh, P. Nguyễn Cư Trinh, Q. 1.</li>
+                        <li><b>SHOP HN</b>(Làm việc từ 8h00 - 21h00)</li>
+                        <li>- Địa chỉ : 37 Ngõ 121 Thái Hà, P.Trung Liệt, Q.Đống Đa</li>
+                    </ul>
+                </div>
+                <div class="f-menu">
+                </div>
+                <div class="f-menu">
+                    <h3>
+                        Theo dõi chúng tôi tại
+                    </h3>
+                    <ul class="nav nav-pills nav-stacked">
+                        <li><a href="#"><b>Facebook</b></a></li>
+                        <li><a href="#"><b>Youtube</a></b>
+                        </li>
+                        <li><a href="#"><b>Instagram</a></b>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <ul class="social-icons nav navbar-nav">
+                        <li>
+                            <a href="http://facebook.com/">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://google.com/">
+                                <i class="fa fa-google-plus"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://twitter.com/">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://instagram.com/">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- Footer - end -->
+
+
+    <!-- jQuery plugins/scripts - start -->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/fancybox/fancybox.js"></script>
+    <script src="js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/swiper.jquery.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/progressbar.min.js"></script>
+    <script src="js/ion.rangeSlider.min.js"></script>
+    <script src="js/chosen.jquery.min.js"></script>
+    <script src="js/jQuery.Brazzers-Carousel.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhAYvx0GmLyN5hlf6Uv_e9pPvUT3YpozE"></script>
+    <script src="js/gmap.js"></script>
+    <!-- jQuery plugins/scripts - end -->
+
+</body>
+
+</html>
